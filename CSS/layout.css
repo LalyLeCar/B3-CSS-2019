@@ -1,22 +1,22 @@
-@media screen and (min-width: 400px) and (max-width: 600px) {
+@media screen and (min-width: 0px) and (max-width: 479px) {
     body {
       background-color: red;
     }
   }
 
-  @media screen and (min-width: 600px) and (max-width: 800px) {
+  @media screen and (min-width: 480px) and (max-width: 959px) {
     body {
       background-color: blue;
     }
   }
 
-  @media screen and (min-width: 800px) and (max-width: 1000px) {
+  @media screen and (min-width: 960px) and (max-width: 1280px) {
     body {
       background-color: green;
     }
   }
 
-  @media screen and (min-width:1000px) and (max-width: 1500px) {
+  @media screen and (min-width:1281px) and (max-width: 3000px) {
     body {
       background-color: yellow;
     }
@@ -28,19 +28,72 @@
  background-size: cover;
  justify-content: center;
  align-items: center;
- flex: display;
+ height: 500px;
+ display: flex;
+ color: white;
+ font-size: 50px;
+ background-position: center;
 }
 
 .grid-container-text {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding-left: 50px;
-  padding-right: 50px;
+  border: 2px solid blue;
+  columns: 20em;
+  margin: 10px;
+  padding: 10px;
 }
 
-.grid-item-text {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 50px;
+.grid-container-text p {
+  border: 2px solid purple;
+  margin: 20px;
+}
+
+.grid-container-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+  /* repeat(5, 1fr) --> permet de répéter la taille des colones 5 fois en 1fr)*/
+  grid-gap: 10px;
+  border: 2px solid green;
+  padding: 5px;
+}
+
+.grid-item-block {
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid red;
+}
+
+.grid-item-block img {
+  max-width: 100%;
+}
+
+.section4 {
+  height: 50vh;
+  border: 5px solid blue;
+}
+
+.section4 img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.img_fixed {
+  background-image: url("images/LG03.png");
+  border: 2px solid purple;
+  height: 70vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.section5 {
+  height: 50vh;
+  border: 5px solid blue;
+}
+
+.section5 img {
+object-fit: cover;
+height: 15vh;
+width: 100vh;
+margin: 5px;
 }
