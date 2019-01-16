@@ -1,0 +1,25 @@
+
+body {
+@media screen and (min-width: 200px) and (max-width: 640px) {
+  .bloc {
+    background-color: red;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .bloc {
+    background-color: blue;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .bloc {
+    background-color: green;
+  }
+}
+
+@media screen and (min-width:800px) and (max-width: 1200px) {
+  .bloc {
+    background-color: yellow;
+  }
+}}

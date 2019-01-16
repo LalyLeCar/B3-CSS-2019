@@ -1,0 +1,46 @@
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    body {
+      background-color: red;
+    }
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 800px) {
+    body {
+      background-color: blue;
+    }
+  }
+
+  @media screen and (min-width: 800px) and (max-width: 1000px) {
+    body {
+      background-color: green;
+    }
+  }
+
+  @media screen and (min-width:1000px) and (max-width: 1500px) {
+    body {
+      background-color: yellow;
+    }
+  }
+
+.section01 {
+ background-image: url("images/LG02.jpg");
+ background-color: #cccccc;
+ background-size: cover;
+ justify-content: center;
+ align-items: center;
+ flex: display;
+}
+
+.grid-container-text {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.grid-item-text {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 50px;
+  text-align: center;
+}
