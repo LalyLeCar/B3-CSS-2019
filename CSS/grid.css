@@ -1,0 +1,27 @@
+.grid-item-block p {
+  margin: 10px;
+}
+
+.grid-item-block h3 {
+  margin: 10px;
+}
+
+.grid-container-block {
+  background-color: #545454;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  /* repeat(5, 1fr) --> permet de répéter la taille des colones 5 fois en 1fr)*/
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.grid-item-block {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #dbdbdb;
+}
+
+.grid-item-block img {
+  max-width: 100%;
+}

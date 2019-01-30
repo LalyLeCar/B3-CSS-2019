@@ -3,8 +3,8 @@
 
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="CSS/typo.css"/>
     <link rel="stylesheet" href="CSS/other.css"/>
+    <link rel="stylesheet" href="CSS/typo.css"/>
     <link rel="stylesheet" href="CSS/layout.css"/>
     <meta charset="utf-8">
     <title>Apes Website</title>
@@ -12,112 +12,44 @@
 
   <body>
     <header>
-      <nav class="nav_apes" style="background-color: #545454; margin: 0; padding: 12px; text-align: center;" >
-          <ul style="list-style-type: none";>
-            <li style="display: inline; margin: 12px; color: white;"><a href="#">Section 1</a></li>
-            <li style="display: inline; margin: 12px; color: white;"><a href="#">Section 2</a></li>
-            <li style="display: inline; margin: 12px; color: white;"><a href="#">Section 3</a></li>
-            <li style="display: inline; margin: 12px; color: white;"><a href="#">Section 4</a></li>
-            <li style="display: inline; margin: 12px; color: white;"><a href="#">Section 5</a></li>
-            <li style="display: inline; margin: 12px; color: white;"><a href="#">Section 6</a></li>
+      <nav class="nav_apes">
+          <ul>
+            <li><a href="pages/responsive.html">Responsive</a></li>
+            <li><a href="pages/flex.html">Flexbox</a></li>
+            <li><a href="pages/grid.html">Grid</a></li>
+            <li><a href="pages/transforms.html">Transform</a></li>
           </ul>
       </nav>
 
-      <h1 style="text-align: center; margin: 10px; font-size: 35px;">All about Apes</h1>
-
+      <h1>ALL ABOUT APES</h1>
     </header>
 
-    <section class="section01">
-      <!-- background image cover and centered title text dans backgroung
-      (background-size: cover) top center (vh) pour centrer image
-    centrer titre avec flex: display : flex , align-item: center;
-     justify content: center,-->
+      <section>
+        <div class="section1">
+          <h3>RESPONSIVE</h3>
 
-      <h2>Bonjour</h2>
-    </section>
-
-    <section>
-      <!-- Three columns of text -->
-      <div class="grid-container-text">
-        <p>Lorem ipsum text Lorem Ipsum Text</p>
-        <p>Lorem ipsum text Lorem Ipsum Text</p>
-        <p>Lorem ipsum text Lorem Ipsum Text</p>
-        <p>Lorem ipsum text Lorem Ipsum Text</p>
-        <p>Lorem ipsum text Lorem Ipsum Text</p>
-        <p>Lorem ipsum text Lorem Ipsum Text</p>
-        <p>Lorem ipsum text Lorem Ipsum Text</p>
-      </div>
-
-    </section>
-
-    <section>
-      <!-- The five basic families of apes, regular homogeneous layout “grid”, image and title.-->
-      <div class="grid-container-block">
-        <div class="grid-item-block">
-          <h3>Titre 1</h3>
-          <img src="CSS/images/SM01.jpg" alt="">
-          <p>Lorem Ipsum</p>
+          <div class="content_pic">
+            <img src="../images/MD05.jpg" alt="">
+          </div>
         </div>
-        <div class="grid-item-block">
-          <h3>Titre 2</h3>
-          <img src="CSS/images/SM02.jpg" alt="">
-          <p>Lorem Ipsum</p>
-        </div>
-        <div class="grid-item-block">
-          <h3>Titre 3</h3>
-          <img src="CSS/images/SM03.jpg" alt="">
-          <p>Lorem Ipsum</p>
-        </div>
-        <div class="grid-item-block">
-          <h3>Titre 4</h3>
-          <img src="CSS/images/SM04.jpg" alt="">
-          <p>Lorem Ipsum</p>
-        </div>
-        <div class="grid-item-block">
-          <h3>Titre 5</h3>
-          <img src="CSS/images/SM05.jpg" alt="">
-          <p>Lorem Ipsum</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section4">
-      <!--  One large responsive image of a gorilla face-->
-      <img src="CSS/images/LG07.jpg" class="img_responsive">
-    </section>
-
-    <section class="img_fixed">
-      <!-- One background image attachment fixed of a orangutan face-->
-    </section>
-
-    <section class="section5">
-      <!-- full width image strips vertically stacked-->
-      <img src="CSS/images/MD01.jpeg">
-      <img src="CSS/images/MD02.jpg">
-      <img src="CSS/images/MD03.jpg">
-      <img src="CSS/images/MD04.jpg">
-      <img src="CSS/images/MD05.jpg">
-
-    </section>
+      </section>
 
     <footer>
-      Footer
-      <div class="">
+      <div class="footer">
         <img src="" alt="">
-        <p>loremipsum</p>
-      </div>
 
-      <nav class="nav_apes">
+      <nav class="nav_footer">
           <ol>
             <li><a href="#">Section 1</a></li>
             <li><a href="#">Section 2</a></li>
             <li><a href="#">Section 3</a></li>
             <li><a href="#">Section 4</a></li>
-            <li><a href="#">Section 5</a></li>
-            <li><a href="#">Section 6</a></li>
           </ol>
       </nav>
-      <!-- your ID image, your contact details, another version of the navigation-->
+
+       <p>Laly Le car
+       <br>ECV Digital</p>
+       </div>
     </footer>
   </body>
 
