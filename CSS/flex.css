@@ -5,9 +5,14 @@
   background-color: white;
 }
 
+.flex-container h4 {
+  width: 400px;
+  margin: auto;
+}
+
 .flex-container > div {
   background-color: #f1f1f1;
-  width: 300px;
+  width: 400px;
   height: auto;
   margin: 10px;
   text-align: center;
@@ -17,8 +22,8 @@
 
 .flex-container img {
   object-fit: cover;
-  height: 60%;
-  width: 60%;
+  height: 55%;
+  width: 55%;
   display: block;
   margin-left: auto;
   margin-right: auto;

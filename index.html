@@ -13,7 +13,8 @@
   <body>
     <header>
       <nav class="nav_apes">
-          <ul>
+          <ul class="nav">
+            <li><a href="index.html">Acceuil</a></li>
             <li><a href="pages/responsive.html">Responsive</a></li>
             <li><a href="pages/flex.html">Flexbox</a></li>
             <li><a href="pages/grid.html">Grid</a></li>
@@ -25,12 +26,45 @@
     </header>
 
       <section>
-        <div class="section1">
-          <h3>RESPONSIVE</h3>
-
+        <div class="section1" id="sec_1">
+            <h3>RESPONSIVE PIC'</h3>
           <div class="content_pic">
-            <img src="../images/MD05.jpg" alt="">
+            <img src="images/MD05.jpg" alt="">
           </div>
+          <button class="button"><a href="pages/responsive.html">En savoir plus</a></button>
+        </div>
+      </section>
+
+      <section>
+        <div class="section2" id="sec_2">
+            <h2>FLEXBOX</h2>
+            <div>
+              <img src="images/flex.jpeg" alt="">
+            </div>
+            <button class="button"><a href="pages/flex.html">En savoir plus</a></button>
+        </div>
+      </section>
+
+      <section>
+        <div class="section3" id="sec_3">
+          <h3>GRID</h3>
+          <div>
+            <img src="images/grid.jpg" alt="">
+          </div>
+          <button class="button"><a href="pages/grid.html">En savoir plus</a></button>
+        </div>
+      </section>
+
+      <section>
+        <h2>TRANSFORM</h2>
+        <div class="section4" id="sec_4">
+          <div class="">
+            <!-- full width image strips vertically stacked-->
+            <img src="CSS/images/MD01.jpeg">
+            <img src="CSS/images/MD02.jpg">
+            <img src="CSS/images/MD03.jpg">
+          </div>
+        <button class="button"><a href="pages/transforms.html">En savoir plus</a></button>
         </div>
       </section>
 
@@ -40,16 +74,15 @@
 
       <nav class="nav_footer">
           <ol>
-            <li><a href="#">Section 1</a></li>
-            <li><a href="#">Section 2</a></li>
-            <li><a href="#">Section 3</a></li>
-            <li><a href="#">Section 4</a></li>
+            <li><a href="#sec_1">Section 1</a></li>
+            <li><a href="#sec_2">Section 2</a></li>
+            <li><a href="#sec_3">Section 3</a></li>
+            <li><a href="#sec_4">Section 4</a></li>
           </ol>
       </nav>
-
-       <p>Laly Le car
-       <br>ECV Digital</p>
-       </div>
+        <img src="images/pic.png" alt="">
+       <p>Laly Le car<br>ECV Digital<br>lalylecar@gmail.com</p>
+     </div>
     </footer>
   </body>
 

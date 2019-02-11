@@ -2,8 +2,9 @@
   margin: 10px;
 }
 
-.grid-item-block h3 {
+.grid-item-block h4 {
   margin: 10px;
+  font-size: 2em;
 }
 
 .grid-container-block {
